@@ -8,19 +8,19 @@ body {
     font-family: 'Merriweather', serif;
 }
 
-h1 {
+ {
     margin: 50px auto 0 auto;
     font-family: 'Sacramento', cursive;
     font-size: 5.623rem;
     color: #66BFBF;
 }
 
-h2 {
+h1 {
     font-family: 'Montserrat', sans-serif;
-    color: #000000;
+    color: #FF0000;
 }
 
-h3 {
+h2 {
     font-family: 'Montserrat', sans-serif;
     color: #DC143C;
     font-weight: lighter;
@@ -34,14 +34,78 @@ h6 {
 
 }
 .button {
-  padding: 5px;
-  background-color: #008CBA;
-  border-radius: 350px;
+  background-color: #FF0000;
+  border: none;
   color: white;
+  padding: 2px 8px;
+  border-radius: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
 }
-.button:hover {
-  color: blue;
+.button:hover {background-color:#F8F8FF;
+
+  color:#FF0000;
+  border: 1px solid #FF0000;
 }
+
+.buttontwitter {
+  background-color: #F8F8FF;
+
+  color: #00BFFF;
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: 2px solid #00BFFF;
+  transition-duration: 0.4s;
+}
+.buttontwitter:hover {background-color:#00BFFF;
+
+  color:#F8F8FF;
+
+}
+.buttoninstagram {
+  background-color: #F8F8FF ;
+
+  color: #00BFFF;
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: 2px solid #00BFFF;
+  transition-duration: 0.4s;
+}
+.buttoninstagram:hover {background-color:#00BFFF;
+
+  color:#F8F8FF;
+
+}
+.buttonlinkedin {
+  background-color: #F8F8FF ;
+  transition-duration: 0.4s;
+  color: #00BFFF;
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: 2px solid #00BFFF;
+}
+.buttonlinkedin:hover {background-color:#00BFFF;
+
+  color:#F8F8FF;
+
+}
+.buttonfacebook {
+  background-color: #F8F8FF;
+  transition-duration: 0.4s;
+  color: #00BFFF;
+  padding: 4px 10px;
+  border-radius: 14px;
+  border: 2px solid #00BFFF;
+}
+.buttonfacebook:hover {background-color:#00BFFF;
+
+  color:#F8F8FF;
+
+}
+
 .new {
   color: black;
   text-align: left;
@@ -56,7 +120,8 @@ h6 {
 .para {
   color: black;
   text-align: left;
-  margin-left: 0px;
+
+  font-size: 14px;
 }
 
 hr {
